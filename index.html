@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Jogo da Memória</title>
+  </head>
+  <body>
+    <div class="game">
+      <div class="players">
+        <div class="player1">
+          <span player1>Player1</span>
+          <span score-player1></span>
+        </div>
+        <div class="player2">
+          <span player2>Player2</span>
+          <span score-player2></span>
+        </div>
+      </div>
+      <div class="letter-container" letter-container>
+        <div class="letter" data-letter></div>
+        <div class="letter" data-letter></div>
+        <div class="letter" data-letter></div>
+        <div class="letter" data-letter></div>
+        <div class="letter" data-letter></div>
+        <div class="letter" data-letter></div>
+        <div class="letter" data-letter></div>
+        <div class="letter" data-letter></div>
+        <div class="letter" data-letter></div>
+        <div class="letter" data-letter></div>
+        <div class="letter" data-letter></div>
+        <div class="letter" data-letter></div>
+        <div class="letter" data-letter></div>
+        <div class="letter" data-letter></div>
+        <div class="letter" data-letter></div>
+        <div class="letter" data-letter></div>
+        <div class="letter" data-letter></div>
+        <div class="letter" data-letter></div>
+        <div class="letter" data-letter></div>
+        <div class="letter" data-letter></div>
+      </div>
+      <div class="life">
+        Vidas:
+        <div class="heart" data-life></div>
+      </div>
+    </div>
+    <div data-winning-message class="winning-message">
+      <span data-message></span>
+      <button data-restart class="">Restart</button>
+    </div>
+    <script src="./scripts.js"></script>
+  </body>
+</html>
